@@ -4,8 +4,7 @@ namespace Akaunting\Firewall\Middleware;
 
 use Akaunting\Firewall\Abstracts\Middleware;
 use Akaunting\Firewall\Events\AttackDetected;
-use Jenssegers\Agent\Agent as Parser;
-
+use Akaunting\Firewall\Middleware\AgentParser as Parser;
 class Agent extends Middleware
 {
     protected $parser;
