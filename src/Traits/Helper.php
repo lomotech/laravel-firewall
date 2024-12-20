@@ -10,7 +10,7 @@ trait Helper
 {
     public Request|string|array|null $request = null;
     public string|null $middleware = null;
-    public int|null $user_id = null;
+    public int|string|null $user_id = null;
 
     public function isEnabled($middleware = null)
     {
